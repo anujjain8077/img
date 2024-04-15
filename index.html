@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="photocollg.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+     <header>
+    </div>
+         <div class="text-box">
+            <p>WELCOME</p>
+         </div>
+    </header>
+    <div class="container1">
+    <div class="flip-card">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                 <img src="box1.jpg" alt="image" >
+                </div>
+                <div class="flip-card-back">
+                  <h1>You Can Buy Only </h1> 
+                  <h2>$4.00</h2> 
+                </div>
+              </div>
+            </div>
+    </div>
+    <div class="box2">
+        <h1 style="margin-top: 5px; color: white; text-align: center;">Click On Any Image</h1>
+        <div class="boxinner2">
+         <img src="img1.jpg" alt="image">
+    <img src="img2.jpg" alt="image">
+    <img src="img3.jpg" alt="image">
+    <img src="img4.jpg" alt="image">
+    <img src="img5.jpg" alt="image"> 
+    <img src="img6.jpg" alt="image">
+    <img src="img7.jpg" alt="image">
+    <img src="imd8.jpg" alt="image">
+    <img src="img10.jpg" alt="image">
+    <img src="ing9.jpg" alt="image">
+
+</div>
+    
+    
+    </div>
+     <div  class="box3">
+        <div class="box3part1">
+        <div class="w3-container">
+            
+          </div>
+          
+          <div class="w3-content w3-section" style="max-width:700px ">
+            <img class="mySlides w3-animate-top" src="airoplan1.jpg" style="width:100%">
+            <img class="mySlides w3-animate-bottom" src="car1.jpg" style="width:100%">
+            <img class="mySlides w3-animate-top" src="airoplan2.jpg" style="width:100%">
+            <img class="mySlides w3-animate-bottom" src="car2.jpg" style="width:100%">
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2500);    
+          }
+          </script>
+          </div>
+          
+     </div> 
+        
+           
+        
+    <div class="box4">
+      <P class="footer1">Thank You For Visiting!
+      </P>
+      </div>
+    
+
+</body>
+</html>
